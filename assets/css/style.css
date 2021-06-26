@@ -1,0 +1,80 @@
+:root {
+  --accent1: rgba(244, 114, 182);
+  --accent2: white;
+  --accent3: rgb(230, 11, 48);
+  --headerTxt: "Abril Fatface", cursive;
+  --bodyTxt: "Montserrat", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  opacity: 100%;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: var(--accent3);
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: var(--accent1);
+  color: var(--accent2);
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: var(--accent3);
+}
+
+h1 {
+  font-family: var(--headerTxt);
+}
+
+a {
+  font-family: var(--bodyTxt);
+}
+
+.cloud {
+  position: fixed;
+  bottom: -100px;
+  right: -100px;
+}
+
+.body.a {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+.landingpage {
+  background-image: url("../../assets/images/IMG_1594.JPG");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 95%;
+}
