@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --accent1: rgba(244, 114, 182);
   --accent2: white;
@@ -80,4 +84,8 @@ a {
 .contactpg {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.projects {
+  background-color: rgb(146, 215, 243);
 }
