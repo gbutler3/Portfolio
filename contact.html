@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="5">
+<html lang="en" class="5 bg-blue-700 bg-opacity-70">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,24 +26,47 @@
         <button class="openbtn" onclick="openNav()">☰ </button>  
      </div>
 </header>
-  
 
-<h2>Contact</h2>
-        <div id="contact-info" class="contact-info">
-            <ul>
-                <li><div><a href="https://github.com/gbutler3">Github</a>
-                    <img src="assets/images/github-logo.png" alt="Github logo" class=image2 height="37px" width="50px"/></div></li>
-                <li><div><a href=" https://www.linkedin.com/in/grace-butler-834429188">LinkedIn</a>
-                    <img src="assets/images/linkedin-logo.svg" alt="LinkedIn logo" class=image3 height="30px" width="30px"/></div></li>
-                <li><div><a href="mailto:gmx.butler@gmail.com">Email</a>
-                    <img src="assets/images/mail-closed-envelope-back.svg" alt="Mail Image" class=image4 height="30px" width="30px" /></div></li>
-                <li><div><a href="tel:214-918-8862">Phone</a>
-                    <img src="assets/images/phone-receiver-silhouette.svg" alt="Phone Image" class=image5 height="30px" width="30px" /></div></li>
-            </ul>
-        </div>
+<body class="contactpg">
+    <div class= "text-center"> 
+        <h2 class= "text-7xl m-10 mt-3" >Contact</h2>
+        <p class= "text-4xl m-10">Thank you for checking my work out. I hope you liked it. Contact me below!</p>
+    </div>
+
+    <div id="contact-info" class="contact-grid">
+        <ul class="flex flex-wrap md\:flex-col sm\:flex-col text-3xl lg\:justify-between ml-16">
+            <li class= "border-8 border-blue-200 p-14 m-10"><div class= ""><a href="https://github.com/gbutler3">Github</a>
+                <img src="assets/images/github-logo.png" alt="Github logo" class= "ml-6" height="42px" width="55px"/></div></li>
+            <li class= "border-8 border-blue-200 pt-14 md:py-14 pl-10 pr-10 m-10"><div><a href=" https://www.linkedin.com/in/grace-butler-834429188">LinkedIn</a>
+                <img src="assets/images/linkedin-logo.svg" alt="LinkedIn logo"  class= "ml-11" height="35px" width="33px"/></div></li>
+            <li class= "border-8 border-blue-200 p-14 m-10"><div><a href="mailto:gmx.butler@gmail.com">Email</a>
+                <img src="assets/images/mail-closed-envelope-back.svg" alt="Mail Image" class= "ml-6"  height="35px" width="35px" /></div></li>
+            <li class= "border-8 border-blue-200 p-14 m-10" ><div><a href="tel:214-918-8862">Phone</a>
+                <img src="assets/images/phone-receiver-silhouette.svg" alt="Phone Image" class= "ml-9"  height="35px" width="35px" /></div></li>
+        </ul>
+        <br>
+        <br>
+    </div>
+
+<section class= "bg-gray-900 text-gray-100">
+    </div class= "contact-form flex flex-wrap"> 
+        <p class= "text-center text-2xl pb-4 pt-3"> If you are interested in haveing a web application or web page built, you can also submit your info here and I'll reach out to you!</h1>
+        <form class= "text-center p-2 pb-16">
+            <label for= "fname">First name: </label>
+            <input class="m-3 text-gray-900" type= "text" id= "fname" value= "">
+
+            <label for= "lname">Last name: </label>
+            <input class="m-3 text-gray-900" type= "text" id= "lname" value= "">
+
+            <label for= "email"> Email: </label>
+            <input class="m-3 text-gray-900" type= "text" id= "email" value= "">
+        </form>
+    <div>
+    </section>
 
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script> -->
+</body>
+
 <script src="script.js"></script>
 
 </html>

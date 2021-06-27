@@ -52,7 +52,8 @@
   background-color: var(--accent3);
 }
 
-h1 {
+h1,
+h2 {
   font-family: var(--headerTxt);
 }
 
@@ -72,9 +73,11 @@ a {
   right: 0px;
 }
 
-.landingpage {
-  background-image: url("../../assets/images/IMG_1594.JPG");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  opacity: 95%;
+.contactpg::-webkit-scrollbar {
+  display: none;
+}
+
+.contactpg {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
