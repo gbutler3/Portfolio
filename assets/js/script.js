@@ -1,3 +1,5 @@
+const submitbtn = document.getElementById('submitbtn')
+
 function openNav() {
     document.getElementById("mySidebar").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
@@ -8,4 +10,5 @@ function openNav() {
     document.getElementById("main").style.marginLeft= "0";
   }
 
-  //TODO: Functionallity for contact input
+  submitbtn.addEventListener('click', function(){alert ("Thank you!");});
+
