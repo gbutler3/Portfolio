@@ -76,3 +76,9 @@ a {
 .projects {
   background-color: rgb(146, 215, 243);
 }
+
+@media screen and (max-width: 800px) {
+  .hide {
+    display: none;
+  }
+}
