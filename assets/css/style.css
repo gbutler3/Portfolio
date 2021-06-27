@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
   --accent1: rgba(244, 114, 182);
   --accent2: white;
