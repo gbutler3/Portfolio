@@ -77,6 +77,10 @@ a {
   background-color: rgb(146, 215, 243);
 }
 
+#title {
+  font-weight: bold;
+}
+
 @media screen and (max-width: 800px) {
   .hide {
     display: none;
